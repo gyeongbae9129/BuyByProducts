@@ -113,11 +113,18 @@ main {
 }
 
 .canvas-text h1 {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 50pt;
   margin-bottom: 0.3em;
+  line-height: 130%;
 }
 
 .canvas-text p {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   display: flex;
   width: 360px;
   line-height: 180%;
@@ -224,6 +231,27 @@ main {
   height: fit-content;
   /* background-color: green; */
 }
+.buyexplain-text-wrapper p:first-child {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.midori-explain-wrapper p:first-child {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.news-wrapper p:first-child {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.works-explain-wrapper p:first-child {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 .buyexplain-text-area {
   width: 100%;
@@ -260,12 +288,15 @@ main {
   position: absolute;
   width: 122px;
   height: 50px;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .detail-button p {
   font-size: 12px;
   padding: 10px 25px;
   border: solid 1px black;
-  border-radius: 20px;
+  border-radius: 30px;
   transition: all 0.2s;
 }
 
@@ -547,7 +578,6 @@ footer {
 }
 .footer-contact p:first-child {
   font-size: 12px;
-  margin-bottom: 8px;
   font-family: dnp-shuei-gothic-gin-std, sans-serif;
   font-weight: 500;
   font-style: normal;
